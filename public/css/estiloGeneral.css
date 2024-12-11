@@ -1,0 +1,68 @@
+
+header {
+  padding-left: 100px;
+  background-color:#253e26;
+}
+
+
+body {
+  background: linear-gradient(to right, #0fd6ab, #075241);
+}  
+
+.cabecera {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+#titulo {
+  margin-left: 30px;
+  color: white;
+}
+
+.imagenRedonda {   
+  margin-top: 5%;
+  float:left;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 1px solid #666;
+  box-shadow: 5px 5px 5px black;   
+}
+
+#ham{
+  margin-top: 10px;
+}
+
+.nav-link{
+  color: white; 
+}
+
+.nav-link:hover {  
+  color: white;
+  font-weight: bold;
+}
+
+.espacio {
+  height: 75px;
+}
+
+
+/* Estilos welcome. */
+
+#imagen1{
+  margin-bottom: 5%;
+}
+
+#imagen2 {
+margin-left: 5%;
+margin-bottom: 5%;
+}
+
+
+/* Estilos tabla alumnos y cursos. */
+
+.tablaLinea td a {
+  text-decoration: none;
+}
